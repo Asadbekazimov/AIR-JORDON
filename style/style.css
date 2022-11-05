@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #322e41;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 145px;
+}
+
+.header-item {
+  margin-right: 28px;
+}
+
+.header-item:nth-child(7) {
+  margin-right: 163px;
+}
+
+.header-bottom {
+  background: url(../images/Nike-Adapt-BB\ 1.png);
+  height: 500px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.section-about {
+  margin-left: 160px;
+  background-color: #fff;
+  background-position: cover;
+  width: 540px;
+  height: 467px;
+  padding: 15px;
+  margin-top: -35px;
+  border-radius: 6px;
+}
+
+.about-text {
+  padding-bottom: 15px;
+  color: #9b9b9b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: roboto;
+  padding-top: 10px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 20px;
+  font-family: roboto;
+}
+
+body {
+  background-color: #9b9b9b;
+}
+
+.header-link {
+  background-color: transparent;
+  column-gap: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 23px 14px;
+}
+.header-link:hover{
+  background-color: #fff;
+  color: #d47300;
+}
+.product {
+  background-color: #fff;
+  width: 255px;
+  height: 218px;
+  border-radius: 6px;
+}
+
+.product-img {
+  margin: 0 auto;
+  display: block;
+  padding-top: 15px;
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #000;
+  font-family: roboto;
+}
+
+.product-text {
+  text-align: center;
+  color: #9b9b9b;
+  padding-top: 12px;
+}
+
+.container-product {
+  display: flex;
+  gap: 30px;
+}
+
+.header-product {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -35px;
+  gap: 30px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  padding-left: 239px;
+  margin-right: 298px;
+  font-family: roboto;
+  padding-top: 37px;
+}
+
+.footer__h1 {
+  display: flex;
+  font-family: roboto;
+  padding-top: 63px;
+  list-style: none;
+  color: #fff;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+span{
+  color: #d47300;
+}
+ul{
+  list-style: none;
+}
+.footer__h2 {
+  margin-left: 68px;
+  list-style: none;
+}
+input {
+  width: 350px;
+  height: 34px;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 10px;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  width: 350px;
+  height: 86px;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.footer-container {
+  background-color: #322e41;
+  margin-top: 30px;
+  height: 260px;
+}
+
+button {
+  height: 25px;
+  background: #544294;
+  outline: none;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+}
+
